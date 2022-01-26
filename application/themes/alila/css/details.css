@@ -1,0 +1,527 @@
+/****************************
+***   DETAILS PAGE        ***
+****************************/
+.languages__list .languages__link {
+    color: #232323 !important;
+}
+.active .languages__list {
+    border-color: #232323!important;
+}
+.header.header--sticky-fixed.header--at-top .active .languages__link {
+    color: #fff !important;
+}
+.header.header--sticky-fixed.header--at-top .active .languages__list {
+    border-color: #fff !important;
+}
+@media only screen and (max-width:1023px) {  
+    .languages__list .languages__link {
+        color: #fff !important;
+    }
+    .active .languages__list {
+        border-color: #fff!important;
+    } 
+}
+@media only screen and (max-width:768px) {  
+    .languages__list {
+        float: right;
+    }
+}
+
+#colorbox {
+    z-index: 100 !important;
+}
+.header circle {
+    stroke-width:20 !important;
+}
+.header.header--sticky-fixed.header--at-top circle {
+    stroke:#fff !important;
+}  
+.header.header--sticky-fixed.header--at-top polygon {
+    fill:#fff !important;
+} 
+.header.header--sticky-fixed.header--at-top line {
+    stroke:#fff !important;
+}
+.header.header--sticky-fixed.header--at-top .languages__button {
+    color: #fff !important; 
+    border-color: white !important;  
+}
+
+ .header.header--sticky-fixed.header--at-top .header__back-link {
+    color: #fff !important;
+ }
+.section__wrapper {
+    padding: 0 !important;
+}
+.none {
+    display: none;
+}
+@media only screen and (max-width:1023px) { 
+    .hide-mobile-big {
+        display: none !important;
+    }
+}
+.banner--image--room {
+    height: 60vh !important;
+}
+.column__section--room {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #c5c3c3;
+    margin-left: 150px;
+}
+.left--column--room {
+    width: 63% !important;
+}
+.block__settings--room {
+    left: 1.8%;
+    right: auto;
+    width: 100% !important;
+}
+@media only screen and (max-width:736px) {
+    .left--column--room {
+    width: 100% !important;
+    }
+    .column__section--room { 
+    margin-left: 5px;
+    }
+    .block__settings--room {
+    float: left !important;
+    }
+}
+.right--column--room {
+    width: 35% !important;
+}
+
+.room--book--box{
+    text-align: center;
+    border: 1px solid #c5c3c3;
+    display: inline-block;
+    padding: 50px;
+    margin-top: 10%;
+}
+.room--book--price{
+    font-size: 2em;
+    border-bottom: 1px solid #c5c3c3;
+}
+.column__section-container--room{
+    top: 35% !important;
+}
+.header.header--half-width:after {
+    width: 100%;
+}
+.room--view--photos--button {
+    border: solid 1px rgba(255,255,255, 0.6);
+    color: #fff;
+    display: block;
+    height: 40px;
+    vertical-align: middle;
+    padding: 8px 13px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.room__share--white--icon svg {
+    background: white;
+    border-radius: 50%;
+    width: auto;
+    height: 40px;
+    padding: 7px;
+}
+
+.room__share--white--icon::before {
+    display: none !important;
+}
+
+
+.block__inner-column-right {
+    max-width: 100% !important;
+    left: 0;
+    right: auto;
+    width: 100% !important;
+}
+.share-buttons--container--room{
+    margin-left: 30px !important;
+}
+.icon---share--button--room{
+    min-width: 110px !important;
+}
+.icon---share--button--room:before {
+    width: 0px !important;
+    height: 0px !important;
+    display: none;
+}
+.icon__list--room {
+    -webkit-justify-content: flex-start !important; 
+    justify-content: flex-start !important;
+}
+.room--coolumn--wrapper {
+    padding: 50px 10%;
+}
+.room-title {
+    font-weight: bold;
+    color: #444;
+    position: relative;
+}
+.room--title-span {
+    margin-right: 40px;
+}
+.room-title::after {
+    content: '';
+    display: block; 
+    left: 0;
+    bottom: 0;
+    width: 36px;
+    width: 3rem;
+    border-bottom: thin solid currentColor;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.room--desc {
+    color: #444;
+    position: relative;
+}
+.heading4 {
+    font-size: 24px;
+}
+.heading3 {
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.heading2 {
+    font-size: 16px;
+}
+.amenities__container--room {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.amenities__container--room div {
+    display: inline-block;
+    margin-right: 25px;
+}
+.amenities__container--room span {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.features--list-item span {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.room-section {
+    margin-bottom: 80px;
+}
+.room--features-box {
+    background-color: #f0f0f0;
+    padding: 35px 25px;
+}
+
+.features--list-item {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 30%;
+}
+.floor__plan--img img {
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: auto;
+}
+.bold {
+    font-weight: bold;
+}
+.next__room--box { 
+    background-color: #f0f0f0;
+}
+.next__room--container {
+    position: absolute;
+    padding: 65px;
+    display: inline-block;
+}
+.next__room--image--container {
+    display: inline-block;
+    width: 50%;  
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+}
+.next__room--image--container img {
+    width: 100%;
+    height: 250px;
+}
+.read__more--button {
+    background-color: #433a38;
+    padding: 10px 20px;
+    color: white; 
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+ @media only screen and (max-width:1024px) { 
+    .features--list-item {
+        min-width: 49%;    
+    }
+    .room--coolumn--wrapper {
+        padding: 50px 5%;
+    }
+}
+@media only screen and (max-width:735px) { 
+    .features--list-item {
+        min-width: 99%;    
+    }        
+}
+@media only screen and (max-width:769px) { 
+    .next__room--container { 
+        padding: 50px; 
+    }
+    .amenities__container--room img {
+        height: 20px;
+    }
+    .room--features-box img{
+        height: 20px;
+    }
+}
+@media only screen and (max-width:550px) {  
+    .next__room--container { 
+        padding: 15px 20px; 
+    }
+    .next__room--image--container {
+        height: 230px;
+    }
+    .next__room--image--container img{
+        height: 230px;
+    }
+    .heading4 {
+        font-size: 22px;
+    }
+    .heading3 {
+        font-size: 15px;
+    }
+    .heading2 {
+        font-size: 15px;
+    }
+    .read__more--button {
+        padding: 7px 15px;
+    }
+}
+
+.room--book--button {
+    background-color: #433a38;
+    font-weight: normal;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 0;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+}
+.room--book--button span {
+    font-size: 0.45em;
+    display: block;
+}
+
+.room--share__icon {
+    color: #777 !important;
+}
+.room--share__background {
+    background: #fff !important;
+}
+
+.icon__list--room--left {
+    float: left;
+}
+.icon__list--room--right {
+    float: right;
+    margin-right: 1.5%;
+}
+
+.languages__list {
+    width: 130px;
+    margin-top: 50px;
+    margin-left: -90px;
+}
+.languages__item {
+    width: 200px;
+}
+.header__language {
+    width: auto !important;
+}
+.header_toggle {
+    float: right;
+}
+.virtual_tour--icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.amenities--icon {
+    width: 24px;
+    height: 24px;
+}
+
+.modal--booking .modal__container {
+    border-top: none;
+}
+.bed__type--title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* The container */
+.bed__type--container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.bed__type--container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.bed__type--checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #433a38;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.bed__type--container input:checked ~ .bed__type--checkmark {
+  background-color: #433a48;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.bed__type--checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.bed__type--container input:checked ~ .bed__type--checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.bed__type--container .bed__type--checkmark:after {
+ 	top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #433a38;
+    border: 1px solid white;
+}
+
+.bed__type--button {
+    margin-top: 20px;
+}
+.bed__type--button > button {
+    padding: 15px 25px;
+    background: #433a38;
+    border: 0 none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: proxima-nova;
+    width: 100%;
+}
+
+.modal--booking .modal__container {
+    width: 300px;
+    padding: 30px;
+}
+/* END OF DESTAILS PAGE */
+
+@media only screen and (max-width: 736px) {
+    .modal--booking .modal__container {
+        width: 100%;
+        padding: unset;
+        position: absolute;
+        bottom: 0;
+    }
+    .modal--booking .modal__close {
+        position: relative;
+    }
+    .bed__type--title, .bed__type--options {
+        padding: 0 20px;
+    }
+    .bed__type--button > button {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+.slick-arrow {		
+    background-color: transparent;		
+    border: none;		
+}		
+.slick-arrow:focus {		
+    outline: none;		
+}		
+.slick-arrow > svg {		
+    width: 3.1rem;		
+    height: 10px;		
+    opacity: .5;		
+    transform: scale(0.75);		
+    transform-origin: 50% 50%;		
+}		
+.slick-prev > svg {		
+    margin-left: 1em;		
+}		
+.slick-next > svg {		
+    margin-right: 1em;		
+}
+
+.footer {
+    margin-bottom: 50px;
+}
+
+.room__book-sticky {
+    height: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .room--sticky--book {
+        padding: 10px 20px;
+    }
+    .room--sticky--book--left, .room--sticky--book--right {
+        width: 50%;
+    }
+    .room--book--button {
+        font-size: 14px;
+    }
+    .page__sticky-book-mobile {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .room--book--button {
+        font-size: 11px;
+    }
+}
