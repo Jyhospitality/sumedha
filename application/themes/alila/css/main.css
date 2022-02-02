@@ -16402,6 +16402,9 @@ svg {
     background: none;
 }
 
+.marlf{
+  margin-left: 340px;
+}
 .so--country--category {
     margin-top: -60px;
     margin-bottom: 20px;
@@ -16878,6 +16881,9 @@ svg {
     .block__message {
         width: 90%;
     }
+    .marlf{
+      margin-left: 0;
+    }
     
 }
 
@@ -16899,8 +16905,10 @@ svg {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-gap: 4% 2%;
+    /* margin-left: 0; */
     
 }
+
 .so--country--3 {
     margin-bottom: 40px;
 }
@@ -16940,6 +16948,7 @@ svg {
         display: grid;
         grid-template-columns: 48% 48%;
         grid-gap: 10px 4%;
+        margin-left: 0;
     }
     .so--country--3::-webkit-scrollbar {
         display: none;
@@ -17081,3 +17090,260 @@ Destinations page
 .mt--20 {
     margin-top: -20px;
 }
+
+/* AMENITIES & Facilites  */
+.amenities-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.amenities, .facilities {
+padding: 80px 10px;
+text-align: center;
+}
+.course-grid {
+padding-top: 40px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+
+.amenities h3,
+.facilities h3 {
+  font-size: 38px;
+  font-weight: 700;
+  color:#56c5b6;
+}
+
+.course-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.course-grid .block {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 220px;
+  transition: .3s ease-in!important;
+  border-radius: 12px;
+  z-index: 111;
+}
+
+.course-grid .img-container {
+  height: 75%;
+  display: grid;
+  place-items: center;
+}
+
+.course-grid .block i {
+  width: 100%;
+  font-size: 45px;
+}
+
+.course-grid .block h2 {
+  height: 25%;
+  /* padding-top: 20px; */
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--bold-color);
+  margin: 0;
+  /* transition: .3s ease-in; */
+}
+
+.course-grid .block:hover {
+  box-shadow: 0 2px 20px rgba(111, 172, 68, .3);
+  background: #1cc3b2;
+}
+
+.course-grid .block:hover h2 {
+  color: #fff;
+}
+
+.course-grid .block:hover i {
+  color: #fff;
+}
+
+.fa-snowflake:before {
+  content: "\f2dc";
+}
+
+@media (min-width: 1200px) {
+  .amenities-container {
+      max-width: 1140px;
+  }
+}
+
+@media (max-width:500px) {
+  .map-frame {
+      width: 300px;
+  }
+  .logo {
+      max-width: 70px;
+  }
+}
+
+.google-maps-contact-content .google-maps {
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.google-maps-contact-content {
+position: relative;
+z-index: 1;
+background-color: #fff;
+border-radius: 4px;
+-webkit-box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+padding: 35px;
+}
+/* AMENITIES & Facilites  */
+.amenities-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.amenities, .facilities {
+padding: 80px 10px;
+text-align: center;
+}
+.course-grid {
+padding-top: 40px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+
+.amenities h3,
+.facilities h3 {
+  font-size: 38px;
+  font-weight: 700;
+  color:#56c5b6;
+}
+
+.course-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.course-grid .block {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 220px;
+  transition: .3s ease-in!important;
+  border-radius: 12px;
+  z-index: 111;
+}
+
+.course-grid .img-container {
+  height: 75%;
+  display: grid;
+  place-items: center;
+}
+
+.course-grid .block i {
+  width: 100%;
+  font-size: 45px;
+}
+
+.course-grid .block h2 {
+  height: 25%;
+  /* padding-top: 20px; */
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--bold-color);
+  margin: 0;
+  /* transition: .3s ease-in; */
+}
+
+.course-grid .block:hover {
+  box-shadow: 0 2px 20px rgba(111, 172, 68, .3);
+  background: #1cc3b2;
+}
+
+.course-grid .block:hover h2 {
+  color: #fff;
+}
+
+.course-grid .block:hover i {
+  color: #fff;
+}
+
+.fa-snowflake:before {
+  content: "\f2dc";
+}
+
+@media (min-width: 1200px) {
+  .amenities-container {
+      max-width: 1140px;
+  }
+}
+
+@media (max-width:500px) {
+  .map-frame {
+      width: 300px;
+  }
+  .logo {
+      max-width: 70px;
+  }
+}
+
+.google-maps-contact-content .google-maps {
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.google-maps-contact-content {
+position: relative;
+z-index: 1;
+background-color: #fff;
+border-radius: 4px;
+-webkit-box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+padding: 35px;
+}
+
+/* DESTINATIONS SECTION  */
+.destinations{
+  display: flex;
+  width: 1000px;
+}
+.destinations__rishi{
+  background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/cover-rishikesh-in-summer_8th-Jan.jpg);
+}
+
+.destinations__delhi{
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimagesvc.meredithcorp.io%2Fv3%2Fmm%2Fimage%3Furl%3Dhttps%253A%252F%252Fstatic.onecms.io%252Fwp-content%252Fuploads%252Fsites%252F28%252F2021%252F07%252F30%252Fnew-delhi-india-NEWDELHITG0721.jpg&w=1100&h=737&c=sc&poi=face&q=85);
+}
+
