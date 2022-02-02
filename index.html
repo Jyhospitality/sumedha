@@ -247,8 +247,10 @@
     <div class="preloader">
         <div class="preloader__logo">
 
-            <h1 style="color: #000;">
-                Sumedha Hotels
+            <h1 style="color: #000;text-align: center;">
+                Sumedha Hotels<br>
+                Luxury Group of Hotels<br>
+                Delhi & Rishikesh
             </h1>
             <!-- <svg preserveaspectratio="xMinYMin" width="94px" height="33px" viewbox="0 0 94 33" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -2079,7 +2081,13 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                             <div class="block__image" data-video-fallback="url('application/home-intro.mp4')">
                             </div>
                             <div class="block__video">
-                                <video class="block__video js-autoplay video" loop="" name="media" poster="application/poster.png">
+                                <div id="player-overlay">
+                                    <video id="vid"  playsinline="" autoplay="" muted="" loop="" class="mobcss">
+                                        <source src="application/home-intro.mp4" type="video/mp4">
+                                        <!-- Your browser does not support the video tag. -->
+                                    </video>
+                                </div>
+                                <!-- <video class="block__video js-autoplay video" loop="" name="media" poster="application/poster.png">
 
                                     <source src="application/home-intro.mp4"
                                         type="video/mp4">
@@ -2089,7 +2097,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                         type="video/ogg">
 
                                 </video>
-                                <div class="playpause"></div>
+                                <div class="playpause"></div> -->
                             </div>
 
                             <script>
@@ -2386,7 +2394,47 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                 </div>
             </div>
         </section>
-
+        <main class="main" id="main">
+            <div class="so--header_frame">&nbsp;</div>
+            
+         
+            
+            <div class="dest--wrapper">
+                <div class="dest--main--title">
+                    
+        
+            <p class="destinations-title">Explore Sumedha Experience</p>
+                </div>
+                
+                <div class="dest--main--subtitle">
+                    
+        
+            <p>Find your next adventures</p>
+                </div>
+            </div>
+            
+            <div class="so--country dest--wrapper" >
+                <div class="so--country--3 marlf">
+                    <a href="delhi/home.html" style="box-shadow: rgb(0 0 0) 2000px 0px 0px 0px;">
+                        <div class="so--country--3--detail" style="background-image: url('https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg');    ">
+                            <span>DELHI </span>
+                        </div>
+                    </a>
+                    <a href="rishikesh/home.html" style="box-shadow: rgb(0 0 0) 2000px 0px 0px 0px;">
+                        <div class="so--country--3--detail" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rishikesh_haRishikeshridwar_%28577%29.JPG/1280px-Rishikesh_haRishikeshridwar_%28577%29.JPG');    ">
+                            <span>RISHIKESH</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            
+          
+         
+            <div class="frame-border frame-border--bottom" id="frame-border"></div>
+        </main>
+    
+<!-- 
         <section class="section section--snap usesVH usesVH--fixed" id="rooms" data-scrollsnap="snap-rooms">
             <div class="carousel__wrapper section__carousel">
                 <div class="carousel__prev button button--simple carousel__prev--room">
@@ -2415,7 +2463,6 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                 <div class="block__content">
                                     <div class="block__content-container">
                                         <a href="terrace-room.html" class="block__title title">Deluxe Room</a>
-                                        <!--div class="block__body text">44 sqm – Spacious room with private terrace</div-->
                                     </div>
 
                                     <div class="amenities__container">
@@ -2478,7 +2525,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                             </li>
                                             <li class="carousel__link options__item " data-index="1">
                                                 <a class="options__link ">King Room</a>
-                                            </li>
+                                            </li> -->
                                             <!-- <li class="carousel__link options__item " data-index="2">
                                                 <a class="options__link ">Loft Room</a>
                                             </li>
@@ -2488,16 +2535,16 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                             <li class="carousel__link options__item " data-index="4">
                                                 <a class="options__link ">Alila Suite</a>
                                             </li> -->
-                                        </ul>
+                                        <!-- </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="block__container block__container--mobile hide-pc">
+                            <!-- <div class="block__container block__container--mobile hide-pc">
                                 <div class="block__content">
                                     <div class="block__content-container">
                                         <a href="terrace-room.html" class="block__title title">Terrace Room</a>
-                                        <!--div class="block__body text">44 sqm – Spacious room with private terrace</div-->
+                                        div class="block__body text">44 sqm – Spacious room with private terrace</div
                                     </div>
 
                                     <div class="amenities__container">
@@ -2619,7 +2666,6 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                     <div class="block__content-footer room-url-list">
                                         <ul class="icon__list">
                                             <li class="block__readmore">
-                                                <!-- family-terrace-room.html -->
                                                 <a class="icon__link room--readmore" href="#">
                                                     <span class="icon__label">Read More</span>
                                                     <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2695,7 +2741,6 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                                     <div class="block__content-footer room-url-list">
                                         <ul class="icon__list">
                                             <li class="icon__item block__readmore">
-                                                <!-- family-terrace-room.html -->
                                                 <a class="icon__link room--readmore" href="#">
                                                     <span class="icon__label amenities--text--room">Read More</span>
                                                     <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2713,7 +2758,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                             </div>
 
                         </div>
-                    </article>
+                    </article> -->
                     <!-- <article class="block--room block--feature block--carrousel carousel__item usesVH">
                         <div class="block__wrapper block__wrapper--room">
                             <a href="diwa/loft-room.html">
@@ -3249,13 +3294,13 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                         </div>
                     </article> -->
                 </div>
-                <div class="carousel__dots carousel__dots--room hide-pc" id="carousel-dots"></div>
+                <!-- <div class="carousel__dots carousel__dots--room hide-pc" id="carousel-dots"></div>
                 <div class="carousel__next carousel__next--room button button--simple">
                     <span class="button__icon"></span>
                     <div class="icon icon--svg icon--alila_pillow_right">
                         <img src="application/files/amenities/navigate-next.svg">
                     </div>
-                </div>
+                </div> -->
                 <div>
                     <script tpye="text/javascript" src="application/themes/alila/js/jquery.carouFredSel-6.0.4-packed.js"></script>
                     <script type="text/javascript">
@@ -4576,7 +4621,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
             </div>
         </section>
 
-        <section class="room--usp">
+        <!-- <section class="room--usp">
             <div class="room--usp--container">
                 <a href="#bwc-modal">
                     <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4655,7 +4700,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- 
         <section class="section section--snap section--full-window-height usesVH usesVH--fixed section--offers"
             data-scrollsnap="snap-offers" id="offers">
@@ -5021,1675 +5066,9 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
         </section> -->
 
 
-        <section class="section section--snap usesVH usesVH--fixed section--experience" data-scrollsnap="snap-experience" id="experience">
-            <div class="property--experiences">
-
-                <a href="diwa/experience/masterclass.html">
-                    <div class="property--experiences--container--left">
-                        <div class="property--experiences--image">
-                            <img src="application/files/8916/1745/3774/Experience_-_Alila_Masterclass.jpg" alt="">
-                        </div>
-                        <div class="property--experiences--category">
-                            Culture . Family . Food </div>
-                        <div class="property--experiences--title">
-                            Sumedha Masterclass </div>
-                        <div class="property--experiences--desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi blanditiis quaerat eos, id excepturi quos veniam necessitatibus architecto provident aperiam tempore expedita cum animi delectus nemo tenetur, quia pariatur impedit. </div>
-                    </div>
-                </a>
-
-                <a href="diwa/experience/dine-dark.html">
-                    <div class="property--experiences--container--right">
-                        <div class="property--experiences--image">
-                            <img src="application/poster.png" alt="">
-                        </div>
-                        <div class="property--experiences--category">
-                            Adventure . Culture </div>
-                        <div class="property--experiences--title">
-                            BLive E-Bike Tours </div>
-                        <div class="property--experiences--desc">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex rerum doloremque vero ducimus quisquam tempore tenetur? Deleniti harum et laboriosam aut qui nostrum dolore, quos, consectetur vitae nam, suscipit totam! </div>
-                    </div>
-                </a>
-
-            </div>
-            <div class="property--experiences--showmore">
-                <a href="#">
-                    <span>Show more</span>
-                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                            fill="#433A38"></path>
-                    </svg>
-                </a>
-            </div>
-        </section>
+     
         <section class="section--separator--50"></section>
 
-        <section class="section section--dining section--snap usesVH usesVH--fixed" id="dining" data-scrollsnap="snap-dining">
-
-
-
-            <style>
-                /*******************************************
-*** BLOCKS alila_content_slideshow_block ***
-*******************************************/
-                
-                @media only screen and (min-width:1024px) {
-                    .hide-pc {
-                        display: none !important;
-                    }
-                }
-                
-                .block__container--mobile {
-                    position: absolute;
-                    top: 39%;
-                }
-                
-                .block__container--mobile .block__content {
-                    width: 95%;
-                    display: table;
-                    margin: 0 auto;
-                }
-                
-                .block__container--mobile .title {
-                    color: #444;
-                    text-transform: uppercase;
-                }
-                
-                .block__container--mobile .text {
-                    color: #484848;
-                    font-size: 1em;
-                }
-                
-                .block__container--mobile .amenities__container--list-item {
-                    display: inline-block;
-                    color: #484848;
-                    font-size: 0.7em;
-                    margin-right: 15px;
-                    margin-bottom: 10px;
-                }
-                
-                .carousel__dots--room {
-                    position: absolute;
-                    bottom: 0;
-                    left: -12px;
-                    z-index: 1;
-                    bottom: 20px;
-                    width: 100%;
-                    text-align: center;
-                }
-                
-                @media only screen and (min-width:700px) {
-                    .block__container--mobile {
-                        top: 52%
-                    }
-                    .block__container--mobile .text {
-                        color: #484848;
-                        font-size: 1.3em;
-                    }
-                }
-                
-                @media only screen and (min-width:700px) {
-                    .carousel__dots--room {
-                        bottom: 50px;
-                    }
-                }
-                
-                .icon--alila_location_big {
-                    width: 2em;
-                }
-                
-                .block__image--dining {
-                    width: 60.3%;
-                    left: 34.7%;
-                }
-                
-                .Spa .block__image--dining {
-                    width: 60%;
-                    left: 4.5%;
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__image--dining {
-                        width: 100%;
-                        left: 0;
-                    }
-                    .Spa .block__image--dining {
-                        width: 100%;
-                        left: 0;
-                    }
-                    .hide-mobile-big {
-                        display: none !important;
-                    }
-                }
-                
-                .carousel--setings--dining {
-                    position: absolute;
-                    left: 4.7%;
-                    color: black;
-                    width: 30%;
-                    padding-left: 40px;
-                    height: 100%;
-                    background: #fff;
-                    padding-top: 30px;
-                    padding-right: 40px;
-                }
-                
-                .carousel__previous--dining img,
-                .carousel__next--dining img {
-                    width: auto;
-                    height: 50px;
-                }
-                
-                .Spa .carousel--setings--dining {
-                    left: 64.5%;
-                    padding-left: 3%;
-                    padding-right: 3%;
-                    height: 100%;
-                    width: 30.5%;
-                    background-color: #fff;
-                    z-index: 3;
-                }
-                
-                .carousel__footer--dining {
-                    color: black !important;
-                    width: 90% !important;
-                    padding-left: 0px !important;
-                    padding-right: 15px;
-                    padding-bottom: 0 !important;
-                    position: absolute !important;
-                    bottom: 3% !important;
-                    left: 40px;
-                    z-index: 100;
-                }
-                
-                .carousel-text {
-                    font-size: 1em;
-                    margin-bottom: 10px;
-                    text-align: left;
-                }
-                
-                .carousel__next--dining {
-                    left: 95.5% !important;
-                }
-                
-                .carousel__previous--dining {
-                    left: 1.5% !important;
-                }
-                
-                .block__wrapper--dining {
-                    background: #E8E8E8;
-                }
-                
-                .carousel--setings--dining,
-                .block__image--dining {
-                    max-height: 92% !important;
-                    top: 4% !important;
-                }
-                
-                .block__wrapper--dining:after {
-                    background: linear-gradient(transparent, transparent 1%, transparent) !important;
-                }
-                
-                .block__container--dining {
-                    width: 77%;
-                    left: 0 !important;
-                    background: linear-gradient(transparent, transparent 1%, #000) !important;
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__container--dining {
-                        width: 100%;
-                    }
-                    .carousel__previous--dining {
-                        left: 5% !important;
-                    }
-                    .block__wrapper--dining {
-                        background: #fff;
-                    }
-                }
-                
-                .title-dinning {
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    font-size: 1.8em;
-                    font-weight: 600;
-                    color: #444;
-                }
-                
-                .dinning--url-list {
-                    padding-top: 10px;
-                    color: #72bcd4;
-                    /*font-size: 1.1em;*/
-                    margin-left: 0px;
-                    margin-top: 10px;
-                }
-                
-                .dinning--url-list .icon__label {
-                    margin-left: 0 !important;
-                }
-                
-                .carousel__footer--dining .options__link {
-                    font-size: 1.3em;
-                    opacity: 1 !important;
-                    color: #433a38;
-                    font-weight: 700;
-                }
-                
-                .selected--room {
-                    color: #444 !important;
-                }
-                
-                .carousel__footer--dining .options__link:hover {
-                    color: #000 !important;
-                    text-decoration: underline;
-                }
-                
-                .dinning--icon___list {
-                    padding-left: 0px;
-                }
-                
-                .dinning--url-list .icon__label {
-                    font-size: 1.1em;
-                    color: #433a38;
-                }
-                
-                .block__body--dinning {
-                    font-size: 1.2em;
-                    color: #484848;
-                }
-                
-                .amenities--text {
-                    color: #484848;
-                    opacity: 0.8;
-                    position: relative;
-                    top: 0;
-                    left: 10px;
-                }
-                
-                .carousel__footer--dining .options__item {
-                    line-height: 2.2em;
-                }
-                
-                @media only screen and (min-width:400px) {
-                    .amenities--text {
-                        font-size: 16px !important;
-                    }
-                }
-                
-                @media only screen and (min-width:1650px) {
-                    .carousel__footer--dining .options__item {
-                        line-height: 2.5em !important;
-                    }
-                    .carousel__footer--dining {
-                        padding-bottom: 2% !important;
-                    }
-                    .title-dinning {
-                        font-size: 2em;
-                    }
-                    .carousel__footer--dining .options__link {
-                        font-size: 1.3em;
-                    }
-                    .carousel-text {
-                        font-size: 1.3em;
-                    }
-                    .amenities--text {
-                        font-size: 1.1em;
-                    }
-                    .block__body--dinning {
-                        font-size: 1.3em;
-                    }
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__image--dining {
-                        left: 0;
-                        width: 100%;
-                        height: 38% !important;
-                        top: 0 !important;
-                    }
-                    .carousel__next--dining {
-                        display: none !important;
-                    }
-                    .carousel__previous--dining {
-                        display: none !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        color: #433a38 !important;
-                        font-size: 1.1em;
-                        margin-top: 10px;
-                        margin-left: 0;
-                        display: inline;
-                    }
-                    .block__container--mobile .icon__list--vertical {
-                        color: #555;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        color: #484848 !important;
-                        margin-bottom: 0 !important;
-                        font-size: 0.9em;
-                        margin-left: 5px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__item {
-                        margin-bottom: 0 !important;
-                    }
-                    .block__container--mobile .icon__list--vertical svg {
-                        position: relative;
-                        right: 4px;
-                    }
-                    .block__container--mobile .block__body {
-                        margin-top: 15px;
-                    }
-                }
-                
-                @media only screen and (max-width:350px) {
-                    .block__image--dining {
-                        left: 0;
-                        width: 100%;
-                        height: 38% !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        font-size: 0.9em;
-                        margin-top: 5px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        font-size: 0.7em;
-                    }
-                }
-                
-                @media only screen and (min-width:700px) and (max-width:1023px) {
-                    .block__image--dining {
-                        height: 50% !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        font-size: 1.3em;
-                        margin-top: 15px;
-                    }
-                    .block__container--mobile .icon__list--vertical {
-                        margin-top: 15px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        font-size: 1.1em;
-                    }
-                }
-                
-                .readmore--dining {
-                    margin-right: 0 !important;
-                }
-                
-                .booknow-dinig {
-                    margin-left: 0 !important;
-                }
-                
-                .dinning--url-list li {
-                    display: block !important;
-                }
-                
-                .amenities--icon {
-                    float: left;
-                    height: 17px !important;
-                }
-                
-                @media only screen and (min-width:1250px) {
-                    .amenities--icon {
-                        height: 20px !important;
-                    }
-                    .carousel--setings--dining .icon__list--vertical svg {
-                        position: relative;
-                        width: 2.2em;
-                        right: 3px;
-                    }
-                }
-                
-                .icon__list--vertical {
-                    margin-top: 20px;
-                }
-                
-                .icon__list--vertical li {
-                    margin-bottom: 5px !important;
-                    display: block !important;
-                }
-                
-                .icon__list--vertical .icon__label {
-                    margin-left: 0 !important;
-                }
-                
-                .block__content-footer .dining-url {
-                    display: block;
-                }
-                /* END OF alila_content_slideshow_block */
-            </style>
-
-            <div class="carousel__wrapper section__carousel section__carousel--right">
-                <div class="carousel__prev button carousel__previous--dining button--simple">
-                    <div class="icon icon--svg icon--alila_pillow_left">
-                        <img src="application/files/amenities/navigate-before-grayed.svg">
-                    </div>
-                </div>
-                <div class="carousel usesVH usesVH--fixed">
-
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Dining">
-
-                            <div class="block__image block__image--dining" style="background-image:url('Delhi-Hotel-Images/DSC_0078_00058.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Restaurant </h2>
-                                        <div class="block__body amenities--text">Inspired by craft and inventiveness, Restaurant is a speakeasy bar with a retro theme that specializes in the art and alchemy of taste.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">6.00pm -
-                                                1.00am</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href="courtyard-bar.html">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big">
-                                <h2 class="block__title title title-dinning" style="margin-bottom: 20px;">Restaurant
-                                </h2>
-                                <h5 class="block__body text block__body--dinning">Inspired by craft and inventiveness, Restaurant is a speakeasy bar with a retro theme that specializes in the art and alchemy of taste.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">6.00pm -
-                                            1.00am</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list">
-                                    <ul class="icon__list">
-                                        <li class="block__readmore readmore--dining">
-                                            <a class="icon__link" href="courtyard-bar.html">
-                                                <span class="icon__label">Read more</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-
-                                        <li class="block__book">
-                                            <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="carousel__footer carousel__footer--dining hide-mobile-big">
-                                    <!--div class="carousel-text">Next Dining:</div-->
-                                    <div class="carousel__dots"></div>
-                                    <ul class="options carousel__links">
-                                        <li class="carousel__link options__item " data-index="0">
-                                            <a class="options__link selected--room">Restaurant </a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="1">
-                                            <a class="options__link ">Workout Room | Health Club</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="2">
-                                            <a class="options__link ">Games Room</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="3">
-                                            <a class="options__link ">Spa</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="4">
-                                            <a class="options__link ">Swimming Pool</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="options options__options">
-                                    <li class="options__item active">
-                                        <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </article>
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Dining">
-
-                            <div class="block__image block__image--dining" style="background-image:url('Rishikesh-Hotel-Images/293742191.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Workout Room | Health Club</h2>
-                                        <div class="block__body amenities--text">Overlooking the pool and surrounding paddy fields, Workout Room | Health Club offers a relaxed ambience for all-day dining.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <!-- <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-cuisine.svg"
-                                                    class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">Oriental,
-                                                Indian,<br>Continental</span>
-                                        </li> -->
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">24 hour</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href="#">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big">
-                                <h2 class="block__title title title-dinning" style="margin-bottom: 20px;">Workout Room | Health Club</h2>
-                                <h5 class="block__body text block__body--dinning">Overlooking the pool and surrounding paddy fields, Workout Room | Health Club offers a relaxed ambience for all-day dining.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                    <!-- <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-cuisine.svg"
-                                                class="amenities--icon">
-
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">Oriental,
-                                            Indian,<br>Continental</span>
-                                    </li> -->
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">24 hour</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list">
-                                    <ul class="icon__list">
-                                        <li class="block__readmore readmore--dining">
-                                            <a class="icon__link" href="#">
-                                                <span class="icon__label">Read more</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-
-                                        <li class="block__book">
-                                            <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="carousel__footer carousel__footer--dining hide-mobile-big">
-                                    <!--div class="carousel-text">Next Dining:</div-->
-                                    <div class="carousel__dots"></div>
-                                    <ul class="options carousel__links">
-                                        <li class="carousel__link options__item " data-index="0">
-                                            <a class="options__link ">Restaurant </a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="1">
-                                            <a class="options__link selected--room">Workout Room | Health Club</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="2">
-                                            <a class="options__link ">Games Room</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="3">
-                                            <a class="options__link ">Spa</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="4">
-                                            <a class="options__link ">Swimming Pool</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="options options__options">
-                                    <li class="options__item active">
-                                        <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </article>
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Dining">
-
-                            <div class="block__image block__image--dining" style="background-image:url('Rishikesh-Hotel-Images/IMG-20210302-WA0010.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Games Room</h2>
-                                        <div class="block__body amenities--text">Savour a celebration of India's rich culinary traditions in a menu of distinctive regional fare.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <!-- <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-cuisine.svg"
-                                                    class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">Indian</span>
-                                        </li> -->
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">7.00pm to
-                                                11.00pm</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href="#">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big">
-                                <h2 class="block__title title title-dinning" style="margin-bottom: 20px;">Games Room
-                                </h2>
-                                <h5 class="block__body text block__body--dinning">Savour a celebration of India's rich culinary traditions in a menu of distinctive regional fare.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                    <!-- <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-cuisine.svg"
-                                                class="amenities--icon">
-
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">Indian</span>
-                                    </li> -->
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">7.00pm to
-                                            11.00pm</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list">
-                                    <ul class="icon__list">
-                                        <li class="block__readmore readmore--dining">
-                                            <a class="icon__link" href="#">
-                                                <span class="icon__label">Read more</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-
-                                        <li class="block__book">
-                                            <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="carousel__footer carousel__footer--dining hide-mobile-big">
-                                    <!--div class="carousel-text">Next Dining:</div-->
-                                    <div class="carousel__dots"></div>
-                                    <ul class="options carousel__links">
-                                        <li class="carousel__link options__item " data-index="0">
-                                            <a class="options__link ">Restaurant </a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="1">
-                                            <a class="options__link ">Workout Room | Health Club</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="2">
-                                            <a class="options__link selected--room">Games Room</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="3">
-                                            <a class="options__link ">Spa</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="4">
-                                            <a class="options__link ">Swimming Pool</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="options options__options">
-                                    <li class="options__item active">
-                                        <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </article>
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Dining">
-
-                            <div class="block__image block__image--dining" style="background-image:url('https://assets.indiabizforsale.com/business/upload_pic/spa_for_sale_in_mumbai_ffc9caf598641c4159468caf79603a2c.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Spa</h2>
-                                        <div class="block__body amenities--text">This exclusive dining venue overlooking the pool in The Diwa Club offers a contemporary menu with exotic offerings and fine gastronomic delights.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <!-- <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-cuisine.svg"
-                                                    class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">Mediterranean,
-                                                Middle Eastern</span>
-                                        </li> -->
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">7.00am -
-                                                10.30pm</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href="#">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big">
-                                <h2 class="block__title title title-dinning" style="margin-bottom: 20px;">Spa</h2>
-                                <h5 class="block__body text block__body--dinning">This exclusive dining venue overlooking the pool in The Diwa Club offers a contemporary menu with exotic offerings and fine gastronomic delights.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                    <!-- <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-cuisine.svg"
-                                                class="amenities--icon">
-
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">Mediterranean,
-                                            Middle Eastern</span>
-                                    </li> -->
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">7.00am -
-                                            10.30pm</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list">
-                                    <ul class="icon__list">
-                                        <li class="block__readmore readmore--dining">
-                                            <a class="icon__link" href="#">
-                                                <span class="icon__label">Read more</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-
-                                        <li class="block__book">
-                                            <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="carousel__footer carousel__footer--dining hide-mobile-big">
-                                    <!--div class="carousel-text">Next Dining:</div-->
-                                    <div class="carousel__dots"></div>
-                                    <ul class="options carousel__links">
-                                        <li class="carousel__link options__item " data-index="0">
-                                            <a class="options__link ">Restaurant </a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="1">
-                                            <a class="options__link ">Workout Room | Health Club</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="2">
-                                            <a class="options__link ">Games Room</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="3">
-                                            <a class="options__link selected--room">Spa</a>
-                                        </li>
-                                        <li class="carousel__link options__item " data-index="4">
-                                            <a class="options__link ">Swimming Pool</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="options options__options">
-                                    <li class="options__item active">
-                                        <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </article>
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Dining">
-
-                            <div class="block__image block__image--dining" style="background-image:url('Rishikesh-Hotel-Images/swimming_pool.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Swimming Pool</h2>
-                                        <div class="block__body amenities--text">Pool bar by day, hip lounge by night, Swimming Pool Bar overlooking the cool blue waters of the infinity pool is a stylish venue to relax and unwind.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">9.00 am – 7.00
-                                                pm</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href=# ">
-                                                    <span class="icon__label ">Read more</span>
-                                                    <svg width="18 " height="12 " viewbox="0 0 18 12 " fill="none "
-                                                        xmlns="http://www.w3.org/2000/svg ">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837
-                                                    5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141
-                                                    5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z "
-                                                            fill="#433A38 "></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url ">
-                                                <a class="icon__link " href="mailto:abc.com "
-                                                    target="_blank ">
-                                                    <span class="icon__label ">Make a Reservation</span>
-                                                    <svg width="18 " height="12 " viewbox="0 0 18 12 " fill="none "
-                                                        xmlns="http://www.w3.org/2000/svg ">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837
-                                                    5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141
-                                                    5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z "
-                                                            fill="#433A38 "></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big ">
-                                <h2 class="block__title title title-dinning " style="margin-bottom: 20px; ">Swimming Pool</h2>
-                                <h5 class="block__body text block__body--dinning ">Pool bar by day, hip lounge by night,
-                                    Swimming Pool Bar overlooking the cool blue waters of the infinity pool is a stylish
-                                    venue to relax and unwind.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list ">
-                                    <li class="icon__item ">
-                                        <div class=" ">
-                                            <img src="application/files/amenities/dining-opening-hour.svg "
-                                                class="amenities--icon ">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text ">9.00 am – 7.00
-                                            pm</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list ">
-                                    <ul class="icon__list ">
-                                        <li class="block__readmore readmore--dining ">
-                                            <a class="icon__link " href=#">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="block__book">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="carousel__footer carousel__footer--dining hide-mobile-big">
-                                        <!--div class="carousel-text">Next Dining:</div-->
-                                        <div class="carousel__dots"></div>
-                                        <ul class="options carousel__links">
-                                            <li class="carousel__link options__item " data-index="0">
-                                                <a class="options__link ">Restaurant </a>
-                                            </li>
-                                            <li class="carousel__link options__item " data-index="1">
-                                                <a class="options__link ">Workout Room | Health Club</a>
-                                            </li>
-                                            <li class="carousel__link options__item " data-index="2">
-                                                <a class="options__link ">Games Room</a>
-                                            </li>
-                                            <li class="carousel__link options__item " data-index="3">
-                                                <a class="options__link ">Spa</a>
-                                            </li>
-                                            <li class="carousel__link options__item " data-index="4">
-                                                <a class="options__link selected--room">Swimming Pool</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <ul class="options options__options">
-                                        <li class="options__item active">
-                                            <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                    </article>
-                    <div class="carousel__dots carousel__dots--room hide-pc" id="carousel-dots"></div>
-
-
-                    </div>
-                    <div class="carousel__next  carousel__next--dining button button--simple">
-                        <span class="button__icon"></span>
-                        <div class="icon icon--svg icon--alila_pillow_right">
-                            <img src="application/files/amenities/navigate-next-grayed.svg">
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="section section--spa section--snap usesVH usesVH--fixed" id="spa" data-scrollsnap="snap-spa">
-
-
-
-            <style>
-                /*******************************************
-*** BLOCKS alila_content_slideshow_block ***
-*******************************************/
-                
-                @media only screen and (min-width:1024px) {
-                    .hide-pc {
-                        display: none !important;
-                    }
-                }
-                
-                .block__container--mobile {
-                    position: absolute;
-                    top: 39%;
-                }
-                
-                .block__container--mobile .block__content {
-                    width: 95%;
-                    display: table;
-                    margin: 0 auto;
-                }
-                
-                .block__container--mobile .title {
-                    color: #444;
-                    text-transform: uppercase;
-                }
-                
-                .block__container--mobile .text {
-                    color: #484848;
-                    font-size: 1em;
-                }
-                
-                .block__container--mobile .amenities__container--list-item {
-                    display: inline-block;
-                    color: #484848;
-                    font-size: 0.7em;
-                    margin-right: 15px;
-                    margin-bottom: 10px;
-                }
-                
-                .carousel__dots--room {
-                    position: absolute;
-                    bottom: 0;
-                    left: -12px;
-                    z-index: 1;
-                    bottom: 20px;
-                    width: 100%;
-                    text-align: center;
-                }
-                
-                @media only screen and (min-width:700px) {
-                    .block__container--mobile {
-                        top: 52%
-                    }
-                    .block__container--mobile .text {
-                        color: #484848;
-                        font-size: 1.3em;
-                    }
-                }
-                
-                @media only screen and (min-width:700px) {
-                    .carousel__dots--room {
-                        bottom: 50px;
-                    }
-                }
-                
-                .icon--alila_location_big {
-                    width: 2em;
-                }
-                
-                .block__image--dining {
-                    width: 60.3%;
-                    left: 34.7%;
-                }
-                
-                .Spa .block__image--dining {
-                    width: 60%;
-                    left: 4.5%;
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__image--dining {
-                        width: 100%;
-                        left: 0;
-                    }
-                    .Spa .block__image--dining {
-                        width: 100%;
-                        left: 0;
-                    }
-                    .hide-mobile-big {
-                        display: none !important;
-                    }
-                }
-                
-                .carousel--setings--dining {
-                    position: absolute;
-                    left: 4.7%;
-                    color: black;
-                    width: 30%;
-                    padding-left: 40px;
-                    height: 100%;
-                    background: #fff;
-                    padding-top: 30px;
-                    padding-right: 40px;
-                }
-                
-                .carousel__previous--dining img,
-                .carousel__next--dining img {
-                    width: auto;
-                    height: 50px;
-                }
-                
-                .Spa .carousel--setings--dining {
-                    left: 64.5%;
-                    padding-left: 3%;
-                    padding-right: 3%;
-                    height: 100%;
-                    width: 30.5%;
-                    background-color: #fff;
-                    z-index: 3;
-                }
-                
-                .carousel__footer--dining {
-                    color: black !important;
-                    width: 90% !important;
-                    padding-left: 0px !important;
-                    padding-right: 15px;
-                    padding-bottom: 0 !important;
-                    position: absolute !important;
-                    bottom: 3% !important;
-                    left: 40px;
-                    z-index: 100;
-                }
-                
-                .carousel-text {
-                    font-size: 1em;
-                    margin-bottom: 10px;
-                    text-align: left;
-                }
-                
-                .carousel__next--dining {
-                    left: 95.5% !important;
-                }
-                
-                .carousel__previous--dining {
-                    left: 1.5% !important;
-                }
-                
-                .block__wrapper--dining {
-                    background: #E8E8E8;
-                }
-                
-                .carousel--setings--dining,
-                .block__image--dining {
-                    max-height: 92% !important;
-                    top: 4% !important;
-                }
-                
-                .block__wrapper--dining:after {
-                    background: linear-gradient(transparent, transparent 1%, transparent) !important;
-                }
-                
-                .block__container--dining {
-                    width: 77%;
-                    left: 0 !important;
-                    background: linear-gradient(transparent, transparent 1%, #000) !important;
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__container--dining {
-                        width: 100%;
-                    }
-                    .carousel__previous--dining {
-                        left: 5% !important;
-                    }
-                    .block__wrapper--dining {
-                        background: #fff;
-                    }
-                }
-                
-                .title-dinning {
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    font-size: 1.8em;
-                    font-weight: 600;
-                    color: #444;
-                }
-                
-                .dinning--url-list {
-                    padding-top: 10px;
-                    color: #72bcd4;
-                    /*font-size: 1.1em;*/
-                    margin-left: 0px;
-                    margin-top: 10px;
-                }
-                
-                .dinning--url-list .icon__label {
-                    margin-left: 0 !important;
-                }
-                
-                .carousel__footer--dining .options__link {
-                    font-size: 1.3em;
-                    opacity: 1 !important;
-                    color: #433a38;
-                    font-weight: 700;
-                }
-                
-                .selected--room {
-                    color: #444 !important;
-                }
-                
-                .carousel__footer--dining .options__link:hover {
-                    color: #000 !important;
-                    text-decoration: underline;
-                }
-                
-                .dinning--icon___list {
-                    padding-left: 0px;
-                }
-                
-                .dinning--url-list .icon__label {
-                    font-size: 1.1em;
-                    color: #433a38;
-                }
-                
-                .block__body--dinning {
-                    font-size: 1.2em;
-                    color: #484848;
-                }
-                
-                .amenities--text {
-                    color: #484848;
-                    opacity: 0.8;
-                    position: relative;
-                    top: 0;
-                    left: 10px;
-                }
-                
-                .carousel__footer--dining .options__item {
-                    line-height: 2.2em;
-                }
-                
-                @media only screen and (min-width:400px) {
-                    .amenities--text {
-                        font-size: 16px !important;
-                    }
-                }
-                
-                @media only screen and (min-width:1650px) {
-                    .carousel__footer--dining .options__item {
-                        line-height: 2.5em !important;
-                    }
-                    .carousel__footer--dining {
-                        padding-bottom: 2% !important;
-                    }
-                    .title-dinning {
-                        font-size: 2em;
-                    }
-                    .carousel__footer--dining .options__link {
-                        font-size: 1.3em;
-                    }
-                    .carousel-text {
-                        font-size: 1.3em;
-                    }
-                    .amenities--text {
-                        font-size: 1.1em;
-                    }
-                    .block__body--dinning {
-                        font-size: 1.3em;
-                    }
-                }
-                
-                @media only screen and (max-width:1023px) {
-                    .block__image--dining {
-                        left: 0;
-                        width: 100%;
-                        height: 38% !important;
-                        top: 0 !important;
-                    }
-                    .carousel__next--dining {
-                        display: none !important;
-                    }
-                    .carousel__previous--dining {
-                        display: none !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        color: #433a38 !important;
-                        font-size: 1.1em;
-                        margin-top: 10px;
-                        margin-left: 0;
-                        display: inline;
-                    }
-                    .block__container--mobile .icon__list--vertical {
-                        color: #555;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        color: #484848 !important;
-                        margin-bottom: 0 !important;
-                        font-size: 0.9em;
-                        margin-left: 5px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__item {
-                        margin-bottom: 0 !important;
-                    }
-                    .block__container--mobile .icon__list--vertical svg {
-                        position: relative;
-                        right: 4px;
-                    }
-                    .block__container--mobile .block__body {
-                        margin-top: 15px;
-                    }
-                }
-                
-                @media only screen and (max-width:350px) {
-                    .block__image--dining {
-                        left: 0;
-                        width: 100%;
-                        height: 38% !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        font-size: 0.9em;
-                        margin-top: 5px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        font-size: 0.7em;
-                    }
-                }
-                
-                @media only screen and (min-width:700px) and (max-width:1023px) {
-                    .block__image--dining {
-                        height: 50% !important;
-                    }
-                    .block__container--mobile .icon__label {
-                        font-size: 1.3em;
-                        margin-top: 15px;
-                    }
-                    .block__container--mobile .icon__list--vertical {
-                        margin-top: 15px;
-                    }
-                    .block__container--mobile .icon__list--vertical .icon__label {
-                        font-size: 1.1em;
-                    }
-                }
-                
-                .readmore--dining {
-                    margin-right: 0 !important;
-                }
-                
-                .booknow-dinig {
-                    margin-left: 0 !important;
-                }
-                
-                .dinning--url-list li {
-                    display: block !important;
-                }
-                
-                .amenities--icon {
-                    float: left;
-                    height: 17px !important;
-                }
-                
-                @media only screen and (min-width:1250px) {
-                    .amenities--icon {
-                        height: 20px !important;
-                    }
-                    .carousel--setings--dining .icon__list--vertical svg {
-                        position: relative;
-                        width: 2.2em;
-                        right: 3px;
-                    }
-                }
-                
-                .icon__list--vertical {
-                    margin-top: 20px;
-                }
-                
-                .icon__list--vertical li {
-                    margin-bottom: 5px !important;
-                    display: block !important;
-                }
-                
-                .icon__list--vertical .icon__label {
-                    margin-left: 0 !important;
-                }
-                
-                .block__content-footer .dining-url {
-                    display: block;
-                }
-                /* END OF alila_content_slideshow_block */
-            </style>
-
-            <div class="carousel__wrapper section__carousel section__carousel--right">
-                <div class="carousel usesVH usesVH--fixed">
-
-                    <article class="block block--feature block--dining block--carousel block--full-window-height carousel__item usesVH">
-                        <div class="block__wrapper block__wrapper--dining Spa">
-
-                            <div class="block__image block__image--dining" style="background-image:url('application/files/6614/8541/9686/diwa-spa01-full.jpg')">
-                            </div>
-
-                            <div class="block__container block__container--mobile hide-pc">
-                                <div class="block__content">
-                                    <div class="block__name name">
-
-
-                                    </div>
-
-                                    <div class="block__content-container">
-                                        <h2 class="block__title title">Spa Sumedha</h2>
-                                        <div class="block__body amenities--text">Lose yourself in a world of sheer indulgence at Spa Sumedha with treatments that are natural and nurturing. Emerge completely relaxed and re-energised.</div>
-                                    </div>
-
-                                    <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/location.svg" class="amenities--icon">
-                                            </div>
-                                            <a class="icon__link" href="index.html">
-                                                <span class="icon__label icon__label--normal amenities--text">Delhi & Rishikesh</span>
-                                            </a>
-                                        </li>
-                                        <li class="icon__item">
-                                            <div class="">
-                                                <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                            </div>
-                                            <span class="icon__label icon__label--normal amenities--text">9.00am to
-                                                9.00pm</span>
-                                        </li>
-                                    </ul>
-
-                                    <div class="block__content-footer">
-                                        <ul class="icon__list">
-                                            <li class="icon__item block__readmore dining-url">
-                                                <a class="icon__link" href="#">
-                                                    <span class="icon__label">Read more</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-
-                                            <li class="icon__item block__book dining-url">
-                                                <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                    <span class="icon__label">Make a Reservation</span>
-                                                    <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                            fill="#433A38"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="carousel--setings--dining hide-mobile-big">
-                                <h2 class="block__title title title-dinning" style="margin-bottom: 20px;">Spa Sumedha</h2>
-                                <h5 class="block__body text block__body--dinning">Lose yourself in a world of sheer indulgence at Spa Sumedha with treatments that are natural and nurturing. Emerge completely relaxed and re-energised.</h5>
-                                <ul class="icon__list icon__list--vertical dinning--icon___list">
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/location.svg" class="amenities--icon">
-                                        </div>
-                                        <a class="icon__link" href="index.html">
-                                            <span class="icon__label icon__label--normal amenities--text">Delhi 
-                                                & Rishikesh
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="icon__item">
-                                        <div class="">
-                                            <img src="application/files/amenities/dining-opening-hour.svg" class="amenities--icon">
-                                        </div>
-                                        <span class="icon__label icon__label--normal amenities--text">9.00am to
-                                            9.00pm</span>
-                                    </li>
-                                </ul>
-                                <div class="dinning--url-list">
-                                    <ul class="icon__list">
-                                        <li class="block__readmore readmore--dining">
-                                            <a class="icon__link" href="#">
-                                                <span class="icon__label">Read more</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-
-                                        <li class="block__book">
-                                            <a class="icon__link" href="mailto:abc.com" target="_blank">
-                                                <span class="icon__label booknow-dinig">Make a Reservation</span>
-                                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.3203 11.4082C11.0215 11.1153 11.0215 10.6289 11.3145 10.3301L14.8711 6.76175L1.31837 6.76175C0.902352 6.76175 0.562508 6.42191 0.562508 6.00003C0.562508 5.57816 0.902352 5.23832 1.31837 5.23832L14.8711 5.23832L11.3086 1.66996C11.0156 1.37113 11.0215 0.890661 11.3145 0.591833C11.6133 0.298864 12.0879 0.298863 12.3867 0.597691L17.2148 5.46097C17.2793 5.53129 17.332 5.60746 17.373 5.70121C17.4141 5.79496 17.4316 5.89457 17.4316 5.99418C17.4316 6.1934 17.3555 6.3809 17.2148 6.52738L12.3867 11.3907C12.0996 11.6953 11.6191 11.7012 11.3203 11.4082Z"
-                                                        fill="#433A38"></path>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="options options__options">
-                                    <li class="options__item active">
-                                        <a class="options__link" data-index="0" data-title="" data-description="" tabindex="0"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </article>
-                    <div class="carousel__dots carousel__dots--room hide-pc" id="carousel-dots"></div>
-
-
-                </div>
-            </div>
-        </section>
 
         <section class="section--separator--15"></section>
 
@@ -6969,88 +5348,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
         </section> -->
 
         <section class="section--separator--15"></section>
-        <section class="section section--snap" id="meetings" data-scrollsnap="snap-meetings">
-            <section class="section grid  grid--full-window-height usesVH grid--column-2 " id="weddings-meetings">
-                <div class="grid__wrapper ">
-                    <article class="block block--link block--vertical--new grid__item block--hover">
-                        <div class="block__wrapper">
-
-                            <!-- weddings.html -->
-                            <a href="#">
-                                <div class="block__image" style="background-image:url(application/files/4616/1666/7118/Weddings_at_Alila_2.jpg)">
-                                </div>
-
-                                <div class="block__container">
-                                    <div class="block__info">
-                                        <div class="block__name name">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="block__content">
-                                        <div class="block__content-container">
-                                            <h2 class="block__title title">
-                                                <!-- weddings.html -->
-                                                <a href="#" target="_blank">Weddings</a>
-                                            </h2>
-                                            <div class="block__body text">Make your wedding the most special day of your life with bespoke indoor & outdoor wedding venues at Sumedha Hotels
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="block__settings">
-                                        <ul class="icon__list">
-                                            <!-- weddings.html -->
-                                            <li class="icon__item block__readmore">
-                                                <a class="icon__link" href="#">
-                                                    Read More </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="block block--link block--vertical--new grid__item block--hover">
-                        <div class="block__wrapper">
-                            <!-- meetings.html -->
-
-                            <a href="#">
-                                <div class="block__image" style="background-image:url(application/files/1016/1666/7119/Meetings_at_Alila.jpg)">
-                                </div>
-
-                                <div class="block__container">
-                                    <div class="block__info">
-                                        <div class="block__name name">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="block__content">
-                                        <div class="block__content-container">
-                                            <h2 class="block__title title">
-                                                <a href="#" target="_blank">Meetings</a>
-                                            </h2>
-                                            <div class="block__body text">Offering world-class business facilities within a stunningly beautiful environment in South , Sumedha Hotels is the ideal location for your off-site meetings or conferences.</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="block__settings">
-                                        <ul class="icon__list">
-                                            <!-- # -->
-                                            <li class="icon__item block__readmore">
-                                                <a class="icon__link" href="#">
-                                                    Read More </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </section>
+      
         <section class="section--separator--15"></section>
 
         <section class=" section section--snap usesVH usesVH--fixed section--about" data-scrollsnap="snap-about" id="about">
@@ -7126,55 +5424,7 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
         </section>
 
         <section class="section--separator--15 "></section>
-        <section class=" section section--snap section--full-window-height section--full-window-height--large usesVH section--auto-height section--sustainable-tourism-section section--show hidden-on-discover home--section--offer" id="sustainable-tourism-section"
-            data-scrollsnap="snap-sustainable-tourism-section">
-            <div class="section__wrapper section__wrapper--offers">
-                <div class="offers__wrapper">
-                    <div class="section__wrapper--max-width offers__wrapper">
-                        <div class="section section--third-window-height usesVH section--offers section--show" id="sustainable-tourism">
-                            <div class="section__wrapper">
-                                <div class="offers__top">
-
-
-                                    <a href="diwa/sustainable-tourism.html">
-                                        <div class="block__image" style="background-image:url(application/files/5415/5153/8243/diwa-sustainable.jpg)">
-                                        </div>
-
-                                        <div class="block__container">
-                                            <div class="block__info">
-                                                <div class="block__name name">
-                                                </div>
-
-                                            </div>
-
-                                            <div class="block__content">
-                                                <div class="block__content-container">
-                                                    <h2 class="block__title title">
-                                                        <a href="diwa/sustainable-tourism.html" target="_blank">Sustainable Tourism</a>
-                                                    </h2>
-                                                    <div class="block__body text">Sumedha Hotels takes great pains to minimise its environmental impact by using primarily local materials and working with the landscape to preserve indigenous ecosystems.
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="block__settings">
-                                                <ul class="icon__list">
-                                                    <li class="icon__item block__readmore">
-                                                        <!-- sustainable-tourism.html -->
-                                                        <a class="icon__link" href="#">
-                                                            Read More </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
         <script tpye="text/javascript" src="application/themes/alila/js/jquery.carouFredSel-6.0.4-packed.js"></script>
         <script type="text/javascript">
@@ -7487,12 +5737,12 @@ https://www.alilahotels.com/cookie-policy" target="_blank" style="text-decoratio
                     <ul class="js-list-content footer__list">
                         <li class=" footer__list-item">
 
-                            <a class="footer__list-link" href="#">
+                            <a class="footer__list-link" href="rishikesh/home.html">
                                 Sumedha Hotels, Rishikesh </a>
                         </li>
                         <li class=" footer__list-item">
 
-                            <a class="footer__list-link" href="#">
+                            <a class="footer__list-link" href="delhi/home.html">
                                 Sumedha Hotels, Delhi</a>
                         </li>
 
