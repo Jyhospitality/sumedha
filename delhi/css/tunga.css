@@ -425,7 +425,7 @@ and (orientation : landscape)
     position: fixed;
     /*top: 304px;*/
     top: 454px;
-    background: #074d29;
+    background: #4f4f4f;
     box-shadow: -2px 2px 5px rgba(0,0,0,.26);
     border-radius: 4px 0 0 4px;
     z-index: 2;
@@ -611,7 +611,7 @@ background-image: url('../images/tunga/icons/arrow_circled_right_white.svg');
     right: 0;
     height: 60px !important;
     font-size: 16px;
-    background: #d33c31;
+    background: #ce9833;
     width: 150px;
     padding: 12px 0!important;
 }
@@ -822,8 +822,8 @@ svg:not(:root) {
 }
 
 .fw-btn-2:hover{
-	    background-color: #074d29;
-    border-color: #074d29;
+	    background-color: #4f4f4f;
+    border-color: #4f4f4f;
 	color:#fff;
 }
 
@@ -898,7 +898,7 @@ svg:not(:root) {
 	color:#363535;
 }
 .copyright1 a{
-	color:#074d29;
+	color:#832161;
 }
 .vid-bg {
     background: #fff;
@@ -1077,7 +1077,7 @@ svg:not(:root) {
     color: #fff;
   	z-index: -1;
   	letter-spacing:5px;
-  	background: -webkit-linear-gradient(#eee, #ffc049);
+  	background: -webkit-linear-gradient(#eee, #ce9833);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1162,8 +1162,8 @@ svg:not(:root) {
     margin-top: 30px;
 }
 .button.btn_blue {
-    background: #094c29;
-    border-color: #094c29;
+    background: #4f4f4f;
+    border-color: #4f4f4f;
     color: #fff;
 	padding: 8px 15px;
 }
@@ -1265,7 +1265,7 @@ canvas {
 	overflow:inherit;
 	/*margin-top:-63px;*/
 	margin-top:-80px;
-	border-top: 4px solid #ffc049;
+	border-top: 4px solid #ce9833;
 	z-index:0;
   background: #fff;
 }
@@ -1318,7 +1318,7 @@ WELCOME SECTION
     -o-transform: translate(-50%, 0);
     width: 250px;
     height: 1px;
-    background-color: #ffc049;
+    background-color: #ce9833;
 }
 
 .element-block {
@@ -1394,7 +1394,7 @@ WELCOME SECTION
     line-height: 80px;
     margin: 0;
      font-family:'ErnestandEmilyUpright';
-    color: #ffc049;
+    color: #ce9833;
 }
 
 .section-title h3 {
@@ -1450,10 +1450,10 @@ WELCOME SECTION
 .tab .nav-tabs > li a:hover,
 .tab .nav-tabs > li.active > a{
     background:transparent;
-    color: #074d29;
+    color: #4f4f4f;
     padding-bottom:5px;
     border:1px solid transparent;
-    border-bottom:2px solid #074d29;
+    border-bottom:2px solid #4f4f4f;
 }
 .tab .tab-content{
     color:#5a5c5d;
@@ -1475,7 +1475,7 @@ WELCOME SECTION
 
 .nearby h1{
 	font-family: 'Poppins', sans-serif;
-	color:#074d29;
+	color:#4f4f4f;
 	font-weight:900;
 	/*font-size:3em;*/
 	font-size:2em;
@@ -1500,7 +1500,7 @@ GALLERY
 }
 
 .styled-block.type-3{
-	border-color: #ffc049 !important;
+	border-color: #ce9833 !important;
 }
 
 @media (max-width: 1400px){
@@ -1549,7 +1549,7 @@ GALLERY
 }
 
 .styled-block.type-3 .styled-block-wrap{
-	    background: #ffc049 !important;
+	    background: #ce9833 !important;
 }
 
 .slider-home12 .item:even .image img {
@@ -1796,7 +1796,7 @@ GALLERY
 
 
 .green-color{
-	color:#074d29;
+	color:#4f4f4f;
 	font-weight:600;
 }
 .pt-0{
@@ -1964,7 +1964,7 @@ body.modal-open {
 }
 
 .star-filled{
-	color:#074d29;
+	color:#4f4f4f;
 }
 
 .pop-headline{
@@ -1996,7 +1996,7 @@ body.modal-open {
 	margin: .4em 0;
     padding: 1em 1.5em;
     cursor: pointer;
-    background: #074d29;
+    background: #4f4f4f;
     text-decoration: none;
     color: #fff;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -2036,7 +2036,7 @@ display:block;
 
 /*** back to top **/
 .back-to-top {
-  background-color: rgb(9, 76, 41);
+  background-color: rgb(79, 79, 1);
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -2126,7 +2126,7 @@ display:block;
     left: -98px;
     width: 130px;
     height: 47px;
-    background: #fec049;
+    background: #ce9833;
     /*background: #fff;*/
     border-radius: 4px 4px 0 0px;
     cursor: pointer;
@@ -2139,7 +2139,7 @@ display:block;
     transform: rotate(-90deg);
     font-weight: 900;
     letter-spacing: 0px;
-    /*background-color: #fec049;*/
+    /*background-color: #ce9833;*/
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -2249,7 +2249,7 @@ and (orientation : portrait)
 }
 
 .custom-arrow-carousel .owl-nav button.owl-prev, .custom-arrow-carousel .owl-nav button.owl-next{
-	border: 2px solid #074d29;
+	border: 2px solid #4f4f4f;
 	width:50px;
 	height:50px;
 	outline:none;
@@ -2257,12 +2257,12 @@ and (orientation : portrait)
 }
 
 .custom-arrow-carousel .owl-nav i{
-	color:#074d29;
+	color:#4f4f4f;
 }
 
 .custom-arrow-carousel .owl-nav button.owl-prev span, .custom-arrow-carousel .owl-nav button.owl-next span{
 	font-size:2em;
-	color:#094c29;
+	color:#4f4f4f;
 }
 
 .dining-concept{
@@ -2423,7 +2423,7 @@ and (orientation : portrait)
 .custom-tabs>li.active>a, .custom-tabs>li.active>a:focus, .custom-tabs>li.active>a:hover{
 	color: #fff;
 	border:none;
-    background-color: #fec049;
+    background-color: #ce9833;
 }
 
 .button-tabs .tabs{
@@ -2612,6 +2612,7 @@ ul.tripadvisor-logos li{
   float: right;
   margin-top: -15px;
   width:25%;
+  text-align: center;
 }
 
 /*Language block*/
@@ -2620,7 +2621,7 @@ ul.tripadvisor-logos li{
   right: 0px;
   /* width: 80px; */
   width:70px;
-  background: #fec049;
+  background: #ce9833;
   /* padding: 10px!important; */
   padding: 5px!important;
 }
@@ -2708,7 +2709,7 @@ ul.tripadvisor-logos li{
 /* Book now button for mobile*/
 #mobile_booknow {
     position: fixed;
-    background-color: #d33c31;
+    background-color: #ce9833;
     z-index: 100;
     bottom: 0;
     width: 100%;
@@ -2782,7 +2783,7 @@ ul.tripadvisor-logos li{
 }
 .brz-bg-content h2{
   font-weight: 900;
-  color: #094c29;
+  color: #4f4f4f;
 }
 /*************************
         loding
