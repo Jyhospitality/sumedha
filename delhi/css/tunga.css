@@ -838,7 +838,7 @@ svg:not(:root) {
 .tunga-footer{
 	padding:0;
 	/*padding-bottom:10px;*/
-	padding-bottom:110px;
+	/* padding-bottom:110px; */
 }
 
 .text-right{
