@@ -1,0 +1,6 @@
+﻿@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/marckscript/v14/nwpTtK2oNgBA3Or78gapdwuyyCg6.ttf) format('truetype');
+}
