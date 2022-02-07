@@ -7614,7 +7614,7 @@ h6 {
     /* width: 80px; */
     width: 60px;
     cursor: pointer;
-    background:#ffc049;
+    background:#ce9833;
 }
 
 .nav-menu .hamburger {
@@ -9626,7 +9626,7 @@ button.toast-close-button {
 }
 
 .overlay .starting-point span {
-    background-color: #d33c32;
+    background-color: #4f4f4f;
 }
 
 .layer-container .menu-layer li .child-menu li.has-child.open {
