@@ -10,6 +10,7 @@
 	<link async="" href="delhi/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<link href="delhi/fonts/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 	<link href="delhi/css/flexslider.css" rel="stylesheet" type="text/css" media="all">	
+	<link href="delhi/css/grand.css" rel="stylesheet" type="text/css" media="all">
 	<link async="" href="delhi/sidebarmenu/admin.css" rel="stylesheet" type="text/css" media="all">
 	<link href="delhi/css/theme.css" rel="stylesheet" type="text/css" media="all">
 	<link href="delhi/css/animate.css" rel="stylesheet" type="text/css" media="all">
@@ -87,9 +88,7 @@ fbq('track', 'PageView');
       <div class="nav-bar">
 
 
-        <div class="module widget-handle cart-widget-handle lang_block book-now left">
-          
-        </div>
+        
         <div id="booknow-desktop" class="module widget-handle cart-widget-handle book-now left booknowright">
           <div class="modal-container">
               <a href="#" data-toggle="modal" data-target="#booknow">Book Now </a>
@@ -192,33 +191,20 @@ fbq('track', 'PageView');
     
 	<div class="main-container">
 
-		<section class="cover image-bg fullscreen overlay-heavy bg-dark vid-bg pt-xs-120">
-			<div class="fs-vid-background">
-				<video id="video-home" autoplay="" muted="" loop="">
-				  <source src="./application/home-intro.mp4" type="video/mp4"><!--delhi/images/mumbai.mp4"-->
-				  Your browser does not support the video tag.
-				</video>
-				<div class="background-image-holder fadeIn mobile_vdo" style="background: url(&quot;delhi/images/tunga/video-bg.jpg&quot;);">
-            <!-- <img alt="image" class="background-image" src="delhi/images/tunga/video-bg.jpg" style="display: none;"> -->
-				</div>
+		<section class="property-customization slider-video">
+			<div class="video-bg">
+				<video src="./application/home-intro.mp4" loop="" autoplay="" muted=""></video>
 			</div>
-			<div class="container v-align-transform">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<!-- <div class="heading_group_sc wpb_content_element subtitle_bottom mbtop-x text-center">
-						  <div class="background_title">TUNGA</div>
-							<h2 class="large banner-text mb16"><span>An Experience called </span> <br>
-							<span>Stay, Dine, Celebrate</span></h2>
-						  <span class="subtitle">  </span>
-					   </div> -->
-					   <!-- <h2 class="large banner-text mb16"><a class="mobile-play-btn" onclick="playVid()"><img src="delhi/images/tunga/play-button.png" alt="mobile-play-btn"></a></h2> -->
-						<!--h2 class="large banner-text mb16"><span>An Experience called Tunga</span> <br/>
-						<span>Stay, Dine, Celebrate Life</span></h2-->
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;    margin-left: 45px;">
+						<h1 class="video-title estate"><span>From</span> Delhi</h1>
+					</div>
+			  <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+						<h1 class="video-title valley text-right"><span>To</span> Rishikesh</h1>
 					</div>
 				</div>
-				<!--end of row-->
 			</div>
-
 		</section>
 		<!-- <div class="booking" style="display:none">
 <div class="hbf " id="booknow-desktop">
@@ -275,48 +261,51 @@ fbq('track', 'PageView');
     </div>
   </div>
 </div></div> -->
-		<section id="homeservices">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-3 col-sm-3 col-xs-6 no-gutter">
-					<a href="delhi/index.html">	<div class="homeservice wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<div class="imgserviceopen">
-								<img alt="service_image" src="delhi/Delhi-Hotel-Images/DSC_0173_00126.jpg">
-							</div>
-							<div class="imgservice">
-								<!--start percentagehome-->
-								<div class="percentagehome easyPieChart" data-percent="90" style="width: 140px; height: 140px; line-height: 140px;">
-									<img alt="service_image" src="https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg">
-								</div>
-								<!--end percentagehome-->
-							</div>
-							<p>Sumedha Delhi Hotel</p>
-
-							<!-- <p><img src="delhi/images/tunga/regale.png" width="180" alt="service_image"></p> -->
-						</div></a>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-6 no-gutter">
-						<a href="./rishikesh/index.html"><div class="homeservice wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-							<div class="imgserviceopen">
-								<img alt="service_image" src="rishikesh/Rishikesh-Hotel-Images/293742211.jpg">
-							</div>
-							<div class="imgservice">
-								<!--start percentagehome-->
-								<div class="percentagehome easyPieChart" data-percent="90" style="width: 140px; height: 140px; line-height: 140px;">
-									<img alt="service_image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rishikesh_haRishikeshridwar_%28577%29.JPG/1280px-Rishikesh_haRishikeshridwar_%28577%29.JPG">
-								</div>
-								<!--end percentagehome-->
-							</div>
-							<p>Sumedha Rishikesh Hotel</p>
-							<!-- <p><img src="delhi/images/tunga/international.png" width="180" alt="service_image"></p> -->
-						</div></a>
-					</div>
-				
-				
-				</div>
+<div class="container">
+    <div class="row match-box h-100 justify-content-center">
+		<div class="col-xl-5 col-lg-6 col-md-6 dflex">
+			<div class="our-hotels">
+			  <div class="hotel-rounded">
+				<a href="delhi/home.html"><img src="log-delhi.jpeg" alt="sumedha Delhi" class="img-fluid"></a>
+				<div class="scroll-down"></div>
+			  </div>
+			 
 			</div>
-		</section>
+		 </div>
+      <div class="col-xl-5 col-lg-6 col-md-6 dflex">
+          <div class="our-hotels our-hotels-mumbai">
+            <div class="hotel-rounded">
+              <a href="rishikesh/index.html"><img src="rishikesh-log.jpeg" alt="sumedha rishikesh" class="img-fluid"></a>
+              <div class="scroll-down"></div>
+            </div>
+        
+          </div>
+      </div>
+     
+    </div>
+  </div>
+
+	<!-- <div class="col-xl-5 col-lg-6 col-md-6 dflex">
+		<div class="our-hotels our-hotels-mumbai">
+			<div class="hotel-rounded">
+			  <a href="delhi/home.html"><img src="rishikesh.jpeg" alt="" class="img-fluid"></a>
+			  <div class="scroll-down"></div>
+			</div>
+		</div>	
+		
+		</div>
+		<div class="col-xl-5 col-lg-6 col-md-6 dflex">
+			<div class="our-hotels our-hotels-mumbai">
+				<div class="hotel-rounded">
+				  <a href="delhi/home.html"><img src="rishikesh.jpeg" alt="" class="img-fluid"></a>
+				  <div class="scroll-down"></div>
+				</div>
+			</div>	
+			
+			</div> -->
+	 
+	
+
 
 		<section class="specialties-section section-bg-white padding-top-120 padding-bottom-100 section-block">
 			<div class="container">
@@ -456,11 +445,11 @@ fbq('track', 'PageView');
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="heading"><center>Special Offers</center></h2>
-				<p class="sub-tlt text-center">
+				<h2 class="heading"><center>Brand Promises</center></h2>
+				<!-- <p class="sub-tlt text-center">
 				Offer applicable only when booked through www.sumedhahotels.com</p>
 				<p class="sub-tlt text-center">
-					Comming Soon</p>
+					Comming Soon</p> -->
 			</div>
 
 		</div>
@@ -470,80 +459,80 @@ fbq('track', 'PageView');
    <div class="container mb-100">
 		 <div class="col-md-12">
 			 <div class="owl-carousel owl-theme custom-arrow-carousel offer-mouse-effect" id="offer-slider">
-					 <!-- <div class="item swiper-slide">
-							<a href="delhi/images/tunga/regenza/offers/special-offers4-1.jpg" data-fancybox="offer1" class="image fancybox">
-								<img src="delhi/images/tunga/regenza/offers/special-offers4-1.jpg" style="border:1px solid #a7a7a7"/>
+					 <div class="item swiper-slide">
+							<a href="towels.jpeg" data-fancybox="offer1" class="image fancybox">
+								<img src="towels.jpeg" style="border:1px solid #a7a7a7"/>
 								<div class="overlay1">
 									<div class="box">
 										<div class="content">
-											<a href="delhi/images/tunga/regenza/offers/special-offers4-1.jpg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
-										</div>
-									</div>
-								</div>
-							</a>
-						 </div> -->
-						 <!--<div class="item swiper-slide">
-							<a href="delhi/images/tunga/regenza/offers/special-offers1-1.jpg" data-fancybox="offer1" class="image fancybox">
-								<img src="delhi/images/tunga/regenza/offers/special-offers1-1.jpg" />
-								<div class="overlay1">
-									<div class="box">
-										<div class="content">
-											<a href="delhi/images/tunga/regenza/offers/special-offers1-1.jpg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+											<a href="towels.jpeg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
 										</div>
 									</div>
 								</div>
 							</a>
 						 </div>
 						 <div class="item swiper-slide">
-							<a href="delhi/images/tunga/regenza/offers/special-offers9-1.jpg" data-fancybox="offer2" class="image fancybox">
-								<img src="delhi/images/tunga/regenza/offers/special-offers9-1.jpg" alt="special-offers" style="border:1px solid #a7a7a7"/>
+							<a href="cards.jpeg" data-fancybox="offer1" class="image fancybox">
+								<img src="cards.jpeg" />
+								<div class="overlay1">
+									<div class="box">
+										<div class="content">
+											<a href="cards.jpeg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+							</a>
+						 </div>
+						 <div class="item swiper-slide">
+							<a href="clean.jpeg" data-fancybox="offer2" class="image fancybox">
+								<img src="clean.jpeg" alt="special-offers" style="border:1px solid #a7a7a7"/>
 
 							</a>
 							<div class="overlay1">
 									<div class="box">
 										<div class="content">
-											<a href="delhi/images/tunga/regenza/offers/special-offers9-1.jpg" data-fancybox="offer1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+											<a href="clean.jpeg" data-fancybox="offer1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
 										</div>
 									</div>
 								</div>
 						 </div>
 					<div class="item swiper-slide">
-							<a href="delhi/images/tunga/international/offers/offer15-1.jpg" data-fancybox="offer1" class="image fancybox">
-								<img src="delhi/images/tunga/international/offers/offer15-1.jpg" alt="specialoffers" style="border:1px solid #a7a7a7"/>
+							<a href="bell.jpeg" data-fancybox="offer1" class="image fancybox">
+								<img src="bell.jpeg" alt="specialoffers" style="border:1px solid #a7a7a7"/>
 								<div class="overlay1">
 									<div class="box">
 										<div class="content">
-											<a href="delhi/images/tunga/international/offers/offer15-1.jpg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+											<a href="bell.jpeg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
 										</div>
 									</div>
 								</div>
 							</a>
 						 </div>
 					<div class="item swiper-slide">
-							<a href="delhi/images/tunga/international/offers/offer18-1.jpg" data-fancybox="offer1" class="image fancybox">
-								<img src="delhi/images/tunga/international/offers/offer18-1.jpg" alt="specialoffers" style="border:1px solid #a7a7a7"/>
+							<a href="secuity.jpeg" data-fancybox="offer1" class="image fancybox">
+								<img src="secuity.jpeg" alt="specialoffers" style="border:1px solid #a7a7a7"/>
 								<div class="overlay1">
 									<div class="box">
 										<div class="content">
-											<a href="delhi/images/tunga/international/offers/offer18-1.jpg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
-										</div>
-									</div>
-								</div>
-							</a>
-						 </div>-->
-					<!-- <div class="item swiper-slide">
-							<a href="delhi/images/tunga/international/offers/offer46.jpg" data-fancybox="offer1" class="image fancybox">
-								<img src="delhi/images/tunga/international/offers/offer46.jpg" alt="specialoffers" style="border:1px solid #a7a7a7">
-								<div class="overlay1">
-									<div class="box">
-										<div class="content">
-											<a href="delhi/images/tunga/international/offers/offer46.jpg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+											<a href="secuity.jpeg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
 										</div>
 									</div>
 								</div>
 							</a>
 						 </div>
-					<div class="item swiper-slide">
+					 <!-- <div class="item swiper-slide">
+							<a href="towels.jpeg" data-fancybox="offer1" class="image fancybox">
+								<img src="towels.jpeg" alt="specialoffers" style="border:1px solid #a7a7a7">
+								<div class="overlay1">
+									<div class="box">
+										<div class="content">
+											<a href="towels.jpeg" data-fancybox="gallery1" class="fancybox"><i class="fa fa-plus" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+							</a>
+						 </div> -->
+					<!--<div class="item swiper-slide">
 							<a href="delhi/images/tunga/international/offers/offer45.jpg" data-fancybox="offer1" class="image fancybox">
 								<img src="delhi/images/tunga/international/offers/offer45.jpg" alt="specialoffers" style="border:1px solid #a7a7a7">
 								<div class="overlay1">
