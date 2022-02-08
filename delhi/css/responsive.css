@@ -213,10 +213,7 @@
 		background-size: 100% !important;
 		background-attachment:initial !important;
 	}
-	.video-title{
-		font-size: 72px!important;
-		line-height: 80px;
-	}
+	
 	.apartments-header h2 {
 		line-height: 35px;
 	}
@@ -322,10 +319,7 @@
 	.visible-x{
 		display:block;
 	}
-	.video-title{
-		font-size: 96px!important;
-		line-height: 103px;
-	}
+	
 	.dubai-content p{
 		text-align:center;
 	}
