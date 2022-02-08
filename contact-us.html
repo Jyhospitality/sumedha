@@ -284,7 +284,7 @@
                                         placeholder="Email ID..." data-validation="required email">
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-sm-12">
+                            <!-- <div class="col-md-6 col-sm-6 col-sm-12">
                                 <div class="form-group">
                                     <select data-validation="required"
                                         data-validation-error-msg="Please select properties" class="form-control"
@@ -296,7 +296,7 @@
                                         <option value="The International">The International</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-sm-12">
@@ -614,182 +614,7 @@
     </section>
 
 
-    <div id="style_switcher">
-        <div id="style_switcher_toggle">
-            <!-- <i class="fa fa-phone"></i> Contact -->
-            <img src="delhi/delhi/images/tunga/call.jpg" alt="">
-        </div>
-        <div class="uk-margin-medium-bottom">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="contact-form">
-
-                        <div id="contact-page1" class="contact-header hideDivs1">
-                            <h4>Contact Our <span>hotels</span></h4>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-6 mb-30">
-                                    <a class="contact-x cursor" data-id="choose-option"
-                                        onclick="gethotelprop('The Regenza')">
-                                        <img src="delhi/images/tunga/regenza.png" width="180">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 mb-30">
-                                    <a class="contact-x cursor" data-id="choose-option"
-                                        onclick="gethotelprop('The Regale')">
-                                        <img src="delhi/images/tunga/regale.png" width="180">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 mb-30">
-                                    <a class="contact-x cursor" data-id="choose-option"
-                                        onclick="gethotelprop('The International')">
-                                        <img src="delhi/images/tunga/international.png" width="180">
-                                    </a>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 mb-30">
-                                    <a class="contact-x cursor" data-id="choose-option"
-                                        onclick="gethotelprop('The Paradise')">
-                                        <img src="delhi/images/tunga/paradise1.png" width="180">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <span id="formmessage" style="display:none;color:red;">Thank you. We will contact you
-                            shortly</span>
-                        <form id="contact">
-                            <div id="choose-option" class="contact-header hideDivs">
-                                <h4>What are you <br><span>looking for?</span></h4>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <ul class="looking-for">
-                                            <li><a class="contact-x cursor" onclick="selecttype('Room')"
-                                                    data-id="f-form"><img src="delhi/images/tunga/icons/double-bed.png"> <br>
-                                                    Rooms</a></li>
-                                            <li><a class="contact-x cursor" onclick="selecttype('Dining')"
-                                                    data-id="f-form"><img src="delhi/images/tunga/icons/dining-room.png"> <br>
-                                                    Dining</a></li>
-                                            <li><a class="contact-x cursor" onclick="selecttype('Banquets')"
-                                                    data-id="f-form"><img src="delhi/images/tunga/icons/cinema.png"> <br>
-                                                    Banquets</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <center><a class="contact-x cursor" data-id="contact-page1">Back</a></center>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="f-form" class="contact-header hideDivs">
-                                <h4><span>Contact Us</span></h4>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control input-lg" name="name"
-                                                data-validation="required custom" maxlength="30"
-                                                data-validation-regexp="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
-                                                placeholder="Name...">
-                                            <input type="hidden" name="type" id="type">
-                                            <input type="hidden" name="properties" id="properties">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control input-lg" name="mobile"
-                                                placeholder="Phone..." data-validation="required number" maxlength="15">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control input-lg" name="email"
-                                                placeholder="Email..." data-validation="required email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="comments"
-                                                placeholder="Suggestions and Feedback..." rows="2"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <button id="btn-submit" type="submit"
-                                                class="btn btn-lg btn-golden hvr-shutter-out-horizontal btn-ripple">Submit</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <center><a class="contact-x cursor" data-id="choose-option">Back</a></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-        <script>
-            $.validate({
-                form: '#contact'
-            });
-        </script>
-        <script type="text/javascript">
-            $("#contact").submit(function (e) {
-                e.preventDefault();
-
-                //  var captcha=$('#g-recaptcha-response').val();
-                //  if(captcha!="")
-                //{
-                $("#btn-submit").html('Processing....');
-                $.ajax({
-                    type: "POST",
-                    url: "contactenquiry_form.php",
-                    data: $("#contact").serialize(),
-                    cache: false,
-                    /*   beforeSend: function() {
-                          d.toggleClass("method")
-                
-                      },*/
-                    success: function (data) {
-                        //  alert(data);
-                        if (data == 1) {
-                            $("#contact").hide();
-                            $("#formmessage").show();
-                            setTimeout(function () {
-                                location.reload();
-                                $('#contact').reset();
-                            }, 5000);
-                        }
-                    }
-
-                });
-                //}
-                /*else{
-                alert("Please Enter recaptcha");
-                return false;
-                }*/
-
-            });
-        </script>
-        <script>
-            function gethotelprop(prop) {
-                $('#properties').val(prop);
-            }
-        </script>
-        <script>
-            function selecttype(type) {
-                $('#type').val(type);
-            }
-        </script>
-    </div>
+ 
 
     <script src="ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
