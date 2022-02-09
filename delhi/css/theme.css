@@ -3685,8 +3685,16 @@ img {
   .fullscreen{
     height: 91vh;
   }
+  .hotel-rounded img{
+    margin-top: 100px;
+    }
+  .res-banner{
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    /* margin-bottom: 90px; */
+  }
   .cover.fullscreen {
-    /* height: auto; */
+    height: auto;
     padding: 80px 0;
   }
   .cover.fullscreen.image-slider {
@@ -5693,4 +5701,8 @@ footer.bg-dark a {
 .justify-content-center {
   
   justify-content: center!important;
+}
+.res-banner{
+  margin-top: -100px;
+
 }

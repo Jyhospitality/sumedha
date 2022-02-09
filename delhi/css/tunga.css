@@ -863,7 +863,7 @@ svg:not(:root) {
 }
 
 .widget_nav_menu ul > li a {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     color: #2a2d41;
     font-style: normal;
@@ -2008,9 +2008,9 @@ body.modal-open {
 	margin-bottom:10px;
 }
 
-.fullscreen {
+/* .fullscreen {
     height: 91vh;
-}
+} */
 
 .fullwidth-btn{
 	width:100%;
