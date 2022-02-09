@@ -2611,7 +2611,7 @@ ul.tripadvisor-logos{
 }
 
 ul.tripadvisor-logos li{
-  display: inline-block;
+  display: flex;
   float: right;
   margin-top: -15px;
   width:25%;

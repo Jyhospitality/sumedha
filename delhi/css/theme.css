@@ -3611,6 +3611,9 @@ img {
   .flickr-feed li {
     width: 33.33333%;
   }
+  .mrl{
+    margin-inline-start: 10px;
+}
 }
 @media all and (max-width: 767px) {
   .flickr-feed li {
@@ -3688,6 +3691,7 @@ img {
   .hotel-rounded img{
     margin-top: 100px;
     }
+    
   .res-banner{
     margin-top: 100px;
     /* margin-bottom: 100px; */
@@ -5705,4 +5709,9 @@ footer.bg-dark a {
 .res-banner{
   margin-top: -100px;
 
+}
+.main-logo{
+  display: flex;
+
+  /* margin-right: 150px; */
 }
