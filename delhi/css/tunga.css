@@ -935,7 +935,7 @@ svg:not(:root) {
     font-size: 14px;
     letter-spacing: 4px;
     /*color: #b0e0e0;*/
-    color: #4cbdbd;
+    color: #ce9833;
 	text-align:center;
 	margin-top:10px;
 	margin-bottom:30px;
@@ -2069,7 +2069,10 @@ display:block;
     line-height: 35px;
   }
 
+  .copyright1 {
+    font-size: 9px;
 
+}
 }
 
 .back-to-top:hover {
